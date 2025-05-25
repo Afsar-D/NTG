@@ -1,0 +1,47 @@
+<html><head>
+    <title>
+        My Details
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+    <body>
+        <h1 style="color:rgb(44, 0, 131)" align="Center">My Portfolio</h1>
+        <img src="/Pics/49d97d17-e110-4cb8-b547-884171418d1f.jpg" align="right" width="150">
+        <section>
+        <h3>My Webstore</h3>
+        <p>
+        <pre>
+        This my webstore.
+        you can buy minecraft stuff like Crates Ranks etc.
+        60+ Payment moded available all over world purchase.
+        Tap on the below image to redirect to my page.
+        </pre>
+        </p>
+        <h3 align="center" ><a href="https://mysticmarket.tebex.io/" target="_blank"><img src="/Pics/tebex.jpg" alt="Webstore" width="100"></a></h3>
+        </section>
+        <hr>
+        <section>
+        <h3>My Social links</h3>
+        <i>In this section ill provide my social links
+        Ill provide my Linkedin ,GitHub links 
+        You can check my pages</i>
+        <div>
+        <h4 margin="5">My Linkedin page</h4>
+        <small>Click on below image it will redirect to my page</small>
+        <br>
+        <p align="center"><a href="https://www.linkedin.com/in/dudekula-afsar-028b282bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="/Pics/LnBuZw.jpg" alt="Linkedin" width="100" ></a>
+        </p></div>
+        <div>
+        <h4>My GitHub Page</h4>
+        <small>Click on below image it will redirect to my page</small>
+        <br>
+        <p align="center" cellspacing="50"><a href="https://github.com/Im-Batman-dev" target="_blank"><img src="/Pics/gitt.jpg" alt="GitHub" width="100" ></a>
+        </p>
+        </div>
+        </section>
+        <hr>
+        <h2>For My Gaming Portfolio visit my gaming page</h2>
+        <h4 ><a href="/gamelinks.html"> Tap on this</a></h4>
+    </body>
+</html>
