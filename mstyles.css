@@ -1,0 +1,35 @@
+@media screen and (max-width:391px) {
+    .intro div imG {
+        height: 30vh;
+        width: auto;
+        float: right;
+    }
+
+    .intro h3 {
+        margin: 3vw;
+        /* font-weight: 700px; */
+        font-size: 3vh;
+    }
+
+    .nav {
+        height: 6vh;
+        width: 80vw;
+    }
+
+    .links {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-content: center;
+        gap: 50px;
+        padding: 10vh;
+    }
+
+    .lanBox div img {
+        padding: 5px;
+        border: 2px solid grey;
+        height: 7vh;
+        border-radius: 30px;
+
+    }
