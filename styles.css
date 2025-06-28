@@ -12,8 +12,16 @@
 }
 
 body {
-    background: linear-gradient(168deg, black 0%, #999999 100%);
+    /* background: linear-gradient(168deg, 10002b 0%, e0aaff  100%); */
+    background: #11041c;
+    background: radial-gradient(circle, rgba(17, 4, 28, 1) 67%, rgba(49, 1, 69, 1) 100%);
+
     padding: 0px 10vw;
+
+}
+
+body p {
+    font-size: var(--text-size);
 }
 
 .line {
@@ -32,37 +40,60 @@ body {
 
 .nav {
     height: 10vh;
-    width: 80vw;
+    width: 70vw;
     display: flex;
-    justify-content: space-between;a
+    justify-content: space-between;
+    align-items: center;
     margin: 20px 0px;
     padding: 0vh 2vw;
     position: sticky;
     top: 1vh;
     border-radius: 20px;
     backdrop-filter: blur(189px);
+    text-decoration: none;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.img1 {
+    width: 5vw;
+}
+
+.img2 {
+    width: 3vw;
+}
+
+audio {
+    height: 0px;
 }
 
 header {
     position: sticky;
     top: 0;
 }
-
+.intro {
+    display: flex;
+    overflow: hidden;
+    z-index: -1;
+}
 .intro h3 {
     margin: 3vw;
     /* font-weight: 700px; */
-    font-size: 10vh;
+    font-size: 15vh;
 }
 
 .intro div imG {
-    width: 40vh;
+    width: 44vh;
     float: right;
 }
 
-.intro div p {
+/* .intro div p {
     font-size: var(--text-size);
+    
+} */
 
-}
 
 .gaming {
     font-size: 3vw;
@@ -86,10 +117,10 @@ header {
     padding: 10vh;
 }
 
-.tech {
+/* .tech {
     font-size: var(--text-size);
 
-}
+} */
 
 .lanBox {
     display: grid;
@@ -98,15 +129,14 @@ header {
     justify-items: center;
     align-items: center;
     gap: 50px;
-    margin:3vh
+    margin: 3vh
 }
 
 .lanBox div img {
     padding: 5px;
     border: 2px solid grey;
     height: 16vh;
-    border-radius: 1rem;
-
+    border-radius: 30px;
 }
 
 .lanBox img:hover {
@@ -114,5 +144,6 @@ header {
     transition: transform 0.4s ease 0.1s;
 
 }
+
 
 
