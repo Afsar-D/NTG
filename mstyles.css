@@ -1,4 +1,4 @@
-@media screen and (max-width:1220px) {
+@media screen and (max-width:1220) {
     .intro div imG {
         height: 30vh;
         width: auto;
@@ -33,3 +33,13 @@
         border-radius: 30px;
 
     }
+
+    .hideOnPc {
+        display: block;
+    }
+
+    .hideOnMobile {
+        display: none;
+
+    }
+}
