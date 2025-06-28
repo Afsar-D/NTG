@@ -1,45 +1,156 @@
-@media screen and (max-width:1220) {
-    .intro div imG {
-        height: 30vh;
-        width: auto;
-        float: right;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
-    .intro h3 {
-        margin: 3vw;
-        /* font-weight: 700px; */
-        font-size: 3vh;
-    }
+:root {
+    --text-size: 2vw;
+}
 
-    .nav {
-        height: 6vh;
-        width: 80vw;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: poppins, sans-serif;
+}
 
-    .links {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        justify-items: center;
-        align-content: center;
-        gap: 50px;
-        padding: 10vh;
-    }
+body {
+    /* background: linear-gradient(168deg, 10002b 0%, e0aaff  100%); */
+    background: #11041c;
+    background: radial-gradient(circle, rgba(17, 4, 28, 1) 67%, rgba(49, 1, 69, 1) 100%);
 
-    .lanBox div img {
-        padding: 5px;
-        border: 2px solid grey;
-        height: 7vh;
-        border-radius: 30px;
+    padding: 0px 10vw;
 
-    }
+}
 
-    .hideOnPc {
-        display: block;
-    }
+body p {
+    font-size: var(--text-size);
+}
 
-    .hideOnMobile {
-        display: none;
+.line {
+    height: 2px;
+    width: 50vw;
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.386) 100%, red 0%);
+}
 
-    }
+.divi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 3vw;
+    font-size: 24px;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
+nav {
+    margin: 30px 0px;
+}
+
+nav ul {
+    background-color: rgba(29, 3, 64, 0.582);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1em;
+    width: 75vw;
+    margin: auto;
+}
+
+li {
+    border-radius: 30px;
+    align-content: center;
+    list-style: none;
+    height: 12vh;
+    padding: 0px 47px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+
+}
+
+li a:hover {
+    background-color: rgb(117, 117, 117);
+}
+
+.img1 {
+    height: 100%;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 25vw;
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    z-index: 99;
+}
+
+.intro {
+    display: flex;
+    overflow: hidden;
+    /* z-index: -1; */
+}
+
+.intro h3 {
+    margin: 3vw;
+    /* font-weight: 700px; */
+    font-size: 15vh;
+}
+
+.intro div imG {
+    width: 44vh;
+    float: right;
+}
+.gaming {
+    font-size: 3vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.gaming img {
+    height: 50px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-content: center;
+    padding: 10vh;
+}
+
+.lanBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 50px;
+    margin: 3vh
+}
+
+.lanBox div img {
+    padding: 5px;
+    border: 2px solid grey;
+    height: 16vh;
+    border-radius: 30px;
+}
+
+.lanBox img:hover {
+    transform: scale(1.1);
+    transition: transform 0.4s ease 0.1s;
+
 }
