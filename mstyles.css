@@ -1,6 +1,6 @@
 @media screen and (max-width: 1000px) {
-    body p {
-        font-size:2vh;
+    body p{
+        font-size: 2vh;
     }
     nav {
         margin: 15px 0px;
@@ -13,8 +13,11 @@
     }
 
     nav li {
-        height: 7vh;
+        height: 9vh;
 
+    }
+    .showOnMobile{
+        display:block ;
     }
 
     .hideOnMobile {
